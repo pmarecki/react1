@@ -15,6 +15,7 @@ class FormContainer extends Component {
 
     handleChange(event) {
         this.setState({ [event.target.id]: event.target.value });
+        console.log('OK');
     }
 
     render() {
